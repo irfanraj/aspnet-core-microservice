@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "soT6gSMGDIBUDRjyJgUXOQD2qu9kwHmrWckGdtg/UZvghOHLd+xPmct7oqwdSKYyctgZV5cpZsAP5iZejRzRIA==",
+  "success": true,
+  "projectFilePath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajii\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\rajii\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\rajii\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\rajii\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\rajii\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

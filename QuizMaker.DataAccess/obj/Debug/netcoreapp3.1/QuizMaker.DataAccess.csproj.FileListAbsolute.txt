@@ -1,0 +1,12 @@
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\bin\Debug\netcoreapp3.1\QuizMaker.DataAccess.deps.json
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\bin\Debug\netcoreapp3.1\QuizMaker.DataAccess.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\bin\Debug\netcoreapp3.1\QuizMaker.DataAccess.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.csprojAssemblyReference.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.AssemblyInfoInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.AssemblyInfo.cs
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.csproj.CopyComplete
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.DataAccess\obj\Debug\netcoreapp3.1\QuizMaker.DataAccess.pdb

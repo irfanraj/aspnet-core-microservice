@@ -1,0 +1,14 @@
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.Services.deps.json
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.Services.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.Services.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.DataAccess.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\bin\Debug\netcoreapp3.1\QuizMaker.DataAccess.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.csprojAssemblyReference.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.AssemblyInfoInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.AssemblyInfo.cs
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.csproj.CoreCompileInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.csproj.CopyComplete
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Services\obj\Debug\netcoreapp3.1\QuizMaker.Services.pdb

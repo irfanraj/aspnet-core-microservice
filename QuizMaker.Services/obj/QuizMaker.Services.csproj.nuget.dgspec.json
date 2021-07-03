@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Services\\QuizMaker.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj",
+        "projectName": "QuizMaker.Abstractions",
+        "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\rajii\\.nuget\\packages\\",
+        "outputPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rajii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs-glo-lexisadvance.pkgs.visualstudio.com/_packaging/LexisAdvance/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\QuizMaker.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\QuizMaker.DataAccess.csproj",
+        "projectName": "QuizMaker.DataAccess",
+        "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\QuizMaker.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\rajii\\.nuget\\packages\\",
+        "outputPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rajii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs-glo-lexisadvance.pkgs.visualstudio.com/_packaging/LexisAdvance/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj": {
+                "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Services\\QuizMaker.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Services\\QuizMaker.Services.csproj",
+        "projectName": "QuizMaker.Services",
+        "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Services\\QuizMaker.Services.csproj",
+        "packagesPath": "C:\\Users\\rajii\\.nuget\\packages\\",
+        "outputPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rajii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs-glo-lexisadvance.pkgs.visualstudio.com/_packaging/LexisAdvance/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj": {
+                "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.Abstractions\\QuizMaker.Abstractions.csproj"
+              },
+              "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\QuizMaker.DataAccess.csproj": {
+                "projectPath": "C:\\Irfan\\Projects\\AspNetCore\\QuizMaker\\QuizMaker.DataAccess\\QuizMaker.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.0.36, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

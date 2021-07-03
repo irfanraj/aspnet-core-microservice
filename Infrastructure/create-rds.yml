@@ -1,0 +1,166 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Postgre RDS Stack
+
+
+Outputs:
+  JDBCConnectionString:
+    Description: JDBC connection string for database
+    Value:
+      !Sub "jdbc:postgresql://${DBResource.Endpoint.Address}:${DBResource.Endpoint.Port}/${DBName}"
+  PlainConnectionString:
+    Description: No protocol connection string for database
+    Value:
+      Fn::GetAtt:
+        - DBResource
+        - Endpoint.Address
+  HttpConnectionStringWithPort:
+    Description: HTTP connection string for database
+    Value:
+      !Sub "http://${DBResource.Endpoint.Address}:${DBResource.Endpoint.Port}"
+      
+Parameters:
+  ProjectID:
+    Description: Asset id of GLITz Asset(to be used in tags)
+    Type: String
+    Default: 46
+  ProjectName:
+    Description: Asset Name
+    Type: String
+    Default: la
+  Service:
+    Description: Name of Service
+    Type: String
+    Default: ihrtest
+  DBName:
+    Description: Name of the Database
+    Type: String
+    Default: ihrtestdb
+  DBInstanceName:
+    Description: Name of the Database instance id
+    Type: String
+    Default: ihrtest-dev
+  MasterUserName:
+    Description: Database Master Username
+    Type: String
+    NoEcho: true
+  MasterPassword:
+    Description: Database master password
+    Type: String
+    NoEcho: true
+  DBInstanceClass:
+    Type: String
+    Default: db.t2.micro
+  Engine:
+    Type: String
+    Default: PostgreSQL
+  EngineVersion:
+    Type: String
+    Default: 12.3
+  VpcSubnets:
+    Description: List of subnets for the ASG
+    Type: CommaDelimitedList
+  VpcId:
+    Description: VPC Id
+    Type: String
+  
+  EnvType:
+    Description: Environment
+    Type: String
+    Default: dev
+
+Transform: SecuritygroupMacro
+    
+Resources:
+  DBResource:
+      DependsOn: LineItemsRdsSecGrp
+      Type: AWS::RDS::DBInstance
+      Properties:
+        Engine:
+            Ref: Engine
+        AllowMajorVersionUpgrade: false
+        StorageType: gp2
+        Tags:
+          - Key: ProjectName
+            Value: la
+          - Key: ProjectID
+            Value:
+              Ref: ProjectID
+        AutoMinorVersionUpgrade: true
+        MasterUsername:
+          Ref: MasterUserName
+        MasterUserPassword:
+          Ref: MasterPassword
+        AllocatedStorage: 100
+        EngineVersion:
+          Ref: EngineVersion
+        DBSubnetGroupName:
+          Ref: DBSubNetGroup
+        DBInstanceClass:
+          Ref: DBInstanceClass
+        DBInstanceIdentifier:
+          Ref: DBInstanceName
+        DBName:
+          Ref: DBName
+        VPCSecurityGroups:
+          -  !Ref LineItemsRdsSecGrp
+        DBParameterGroupName:
+          Ref: DBPrimaryParameterGroup
+          
+  LineItemsRdsSecGrp:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      VpcId: !Ref VpcId
+      GroupName: !Join
+                   -  '-' 
+                   -  -  !Ref 'AWS::StackName'
+                      -  'sec-grp'
+      
+      GroupDescription: ihrtest-rds-sec-grp
+      Inbound:
+        Ln::FindInMap: [Mappings, AssetArea, database, EnvType, cidrBlock]
+      
+      Tags:
+        - Key: ProjectID
+          Value: !Ref ProjectID
+        - Key: Name
+          Value: !Join
+                   -  '-' 
+                   -  -  !Ref 'AWS::StackName'
+                      -  'sec-grp'
+        - Key: ProjectName
+          Value: !Ref ProjectName
+        - Key: ProjectID 
+          Value: !Ref ProjectID
+  
+  DBSubNetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      SubnetIds:
+        Ref: VpcSubnets
+      DBSubnetGroupDescription: ihrtest RDS Subnet Group
+      Tags:
+        - Key: ProjectName
+          Value: la
+        - Key: Purpose
+          Value:
+            Ref: Service
+        - Key: ProjectID
+          Value:
+            Ref: ProjectID
+
+  DBPrimaryParameterGroup:
+    Type: AWS::RDS::DBParameterGroup
+    Properties:
+      Parameters:
+        application_name: "ihrtest"
+      Description: postgres RDS Pararameter Group for Test
+      Family: postgres11
+      Tags:
+        - Key: ProjectName
+          Value: la
+        - Key: Purpose
+          Value:
+            Ref: Service
+        - Key: ProjectID
+          Value:
+            Ref: ProjectID

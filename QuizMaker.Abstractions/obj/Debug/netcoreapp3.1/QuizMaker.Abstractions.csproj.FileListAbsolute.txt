@@ -1,0 +1,9 @@
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.deps.json
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\bin\Debug\netcoreapp3.1\QuizMaker.Abstractions.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.AssemblyInfoInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.AssemblyInfo.cs
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.csproj.CoreCompileInputs.cache
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.dll
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.pdb
+C:\Irfan\Projects\AspNetCore\QuizMaker\QuizMaker.Abstractions\obj\Debug\netcoreapp3.1\QuizMaker.Abstractions.csprojAssemblyReference.cache
